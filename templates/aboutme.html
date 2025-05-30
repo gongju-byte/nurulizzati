@@ -1,0 +1,46 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portfolio of Jwoo">
+    <meta name="author" content="Izzati">
+    <link rel="icon" href="/static/images/flower.png">
+
+    <title>About Me</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.8.1/font/bootstrap-icons.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Questrial&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="static/css/style.css">
+</head>
+
+<body>
+    <!--Navbar-->
+    {% include "navbar.html" %}
+
+    <div class="container">
+        <div class="min-vh-100 mt-5">
+            <div class="row justify-content-center align-items-center py-5">
+                <div class="col-12 col-md-8">
+                    <h1 class="display-5 fw-bold">Hey, I am Izzati</h1>
+                    <p class="my-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore distinctio ullam beatae quae molestias ipsum magni sint tempora similique aperiam, nostrum corporis quos voluptatibus totam quia adipisci accusamus reprehenderit earum ut molestiae labore ratione atque! Ducimus unde fugiat quae sunt sit at rerum ea? Atque saepe dicta hic nobis deserunt possimus iure explicabo quidem? Eligendi ipsa modi commodi doloribus, adipisci officia dolore veniam vitae facilis molestiae illo dicta ullam minus at libero nisi pariatur! Maiores quidem eos earum sed dignissimos officia! Expedita, illum aut! Doloremque nisi at, iste incidunt facilis culpa, quia quae natus reiciendis neque, optio quis? Maxime, quisquam!</p>
+                    <a href="static/RESUME.pdf" class="btn btn-dark rounded-pill px-4">My resume<i class="bi bi-download ms-2"></i></a>
+                </div>
+
+                <div class="col-12 col-md-4 d-flex justify-content-center align-items-center">
+                    <img src="static/images/me.png" alt="Izzati" class="img-fluid rounded-circle" style="object-fit: contain;">
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <!--Footer-->
+    {% include "footer.html" %}
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+</html>

@@ -20,31 +20,7 @@
 
 <body>
     <!--Navbar-->
-    <nav class="navbar navbar-expand-lg navbar-light fixed-top">
-        <div class="container">
-            <a class="navbar-brand" href="index.html">
-                <img src="static/images/flower.png" width="30">
-            </a>
-
-            <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <i class="b bi-three-dots"></i>
-            </button>
-
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-                    <li class="nav-item me-3">
-                        <a class="nav-link" href="aboutme.html">About Me</a>
-                    </li>
-                    <li class="nav-item me-3">
-                        <a class="nav-link" href="project.html">Projects</a>
-                    </li>
-                    <li class="nav-item me-3">
-                        <a class="nav-link" href="article.html">Articles</a>
-                    </li>
-                </ul>
-            </div>
-        </div>
-    </nav>
+    {% include "navbar.html" %}
 
     <div class="container">
         <!--Introduction section-->
@@ -57,7 +33,7 @@
         </div>
 
         <!--Projets Section-->
-        <div class="h-75">
+        <div class="h-100" id="projectsection">
             <h1 class="display-4 fw-bold mb-4">Recent Projects</h1>
 
             <!--Projects Cards-->
@@ -95,22 +71,14 @@
             </div>
 
             <div class="d-flex justify-content-center mt-4">
-                <a href="#Projects" class="btn btn-outline-dark rounded-pill" style="width:150px;">See More</a>
+                <a href="/project" class="btn btn-outline-dark rounded-pill" style="width:150px;">See More</a>
             </div>
-        </div>
-
-        <!--Reach Out-->
-        <div class="text-center">
-            <a href="#" class="btn btn-md btn-outline-dark p-3 rounded-pill"><i class="bi bi-linkedin" title="Visit website"></i></a>
-            <a href="#" class="btn btn-md btn-outline-dark p-3 rounded-pill"><i class="bi bi-github" title="Visit website"></i></a>
-            <a href="#" class="btn btn-md btn-outline-dark p-3 rounded-pill"><i class="bi bi-envelope-fill" title="Visit website"></i></a>
         </div>
     </div>  
 
+    <!--Footer-->
+    {% include "footer.html" %}
+
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 </body>
-
-<footer class="container my-5">
-    <p align="center">&#169; Developed by yours truly</p>
-</footer>
 </html>
