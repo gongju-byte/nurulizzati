@@ -1,0 +1,93 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portfolio of Jwoo">
+    <meta name="author" content="Izzati">
+    <link rel="icon" href="/static/images/flower.png">
+
+    <title>Services</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.8.1/font/bootstrap-icons.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Questrial&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="static/css/style.css">
+</head>
+
+<body>
+    <!--Navbar-->
+    {% include "navbar.html" %}
+
+    <div class="container">
+        <div class="min-vh-100 mt-5">
+            <h1 class="display-4 fw-bold py-5 text-center">Services</h1>
+            <!--Projects Cards-->
+            <div class="row row-cols-1 row-cols-md-3 g-4">
+                <div class="col">
+                    <div class="card text-center border-dark h-100 p-2">
+                        <img src="/static/images/flower.png" class="card-img-top" style="height: 200px; object-fit: cover;">
+                        <div class="card-body">
+                            <h5 class="card-title">Personal Portfolio</h5>
+                            <p class="card-text mt-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum non vel doloremque itaque velit dignissimos similique quod cumque unde ullam.</p>
+                            <a href="#" class="btn btn-outline-dark">Get Quotation</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="card text-center border-dark h-100 p-2">
+                        <img src="/static/images/flower.png" class="card-img-top" style="height: 200px; object-fit: cover;">
+                        <div class="card-body">
+                            <h5 class="card-title">Landing Page</h5>
+                            <p class="card-text mt-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum non vel doloremque itaque velit dignissimos similique quod cumque unde ullam.</p>
+                            <a href="#" class="btn btn-outline-dark">Get Quotation</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="card text-center border-dark h-100 p-2">
+                        <img src="/static/images/flower.png" class="card-img-top" style="height: 200px; object-fit: cover;">
+                        <div class="card-body">
+                            <h5 class="card-title">Event Websites</h5>
+                            <p class="card-text mt-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum non vel doloremque itaque velit dignissimos similique quod cumque unde ullam.</p>
+                            <a href="#" class="btn btn-outline-dark">Get Quotation</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="card text-center border-dark h-100 p-2">
+                        <img src="/static/images/flower.png" class="card-img-top" style="height: 200px; object-fit: cover;">
+                        <div class="card-body">
+                            <h5 class="card-title">Blog Sites</h5>
+                            <p class="card-text mt-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum non vel doloremque itaque velit dignissimos similique quod cumque unde ullam.</p>
+                            <a href="#" class="btn btn-outline-dark">Get Quotation</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="card text-center border-dark h-100 p-2 bg-light bg-opacity-50" style="backdrop-filter: blur(8px);">
+                        <div class="card-body d-flex flex-column justify-content-center align-items-center" style="height: 200px;">
+                            <h5 class="card-title mb-0">Service queries</h5>
+                            <p class="card-text mt-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum non vel doloremque itaque velit dignissimos similique quod cumque unde ullam.</p>
+                            <a href="#" class="btn btn-dark">Send me an email</a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>  
+
+    <!--Footer-->
+    {% include "footer.html" %}
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+</html>

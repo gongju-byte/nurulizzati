@@ -11,8 +11,16 @@ def about():
     return render_template('aboutme.html', status = "about")
 
 @app.route('/project', methods=["post", "get"])
-def projcet():
+def project():
     return render_template('project.html', status = "project")
+
+@app.route('/article', methods=["post", "get"])
+def article():
+    return render_template('article.html', status = "article")
+
+@app.route('/service', methods=["post", "get"])
+def service():
+    return render_template('service.html', status = "service")
 
 
 if __name__ == '__main__':

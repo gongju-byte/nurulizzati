@@ -1,0 +1,51 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portfolio of Jwoo">
+    <meta name="author" content="Izzati">
+    <link rel="icon" href="/static/images/flower.png">
+
+    <title>Nurul Izzati</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.8.1/font/bootstrap-icons.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Questrial&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="static/css/style.css">
+</head>
+
+<body>
+    <!--Navbar-->
+    {% include "navbar.html" %}
+
+    <div class="container">
+        <div class="min-vh-100 mt-5">
+            <h1 class="display-4 fw-bold d-flex flex-column justify-content-center py-5">Articles</h1>
+            <!--Projects Cards-->
+            <div class="row row-cols-1 g-4">
+                <div class="col">
+                    <div class="card border-dark h-100" id="log1">
+                        <div class="card-header bg-light d-flex justify-content-between align-items-center">
+                            <span>Log #1</span>
+                            <span><i class="bi bi-calendar me-2"></i> May 30th 2025</span>
+                        </div>
+                        <div class="card-body">
+                            <h4 class="card-title">How I built my personal portfolio :D</h4>
+                            <p class="card-text mt-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur mollitia vel voluptatibus nulla possimus, ut natus saepe aliquid animi ipsa nemo earum repudiandae quibusdam quaerat odio nobis corrupti necessitatibus provident illo laborum ab, incidunt excepturi maiores quod? Excepturi iure voluptatum maiores dolores exercitationem nostrum perferendis porro unde ipsum ducimus, repellendus deserunt autem sequi amet est quidem minima eos recusandae quisquam, veritatis in ullam modi blanditiis. Porro non est corporis quod saepe labore consequuntur omnis cumque sit molestiae nemo natus, asperiores dicta temporibus iure assumenda ea aspernatur nulla deleniti. Consequuntur magni nesciunt optio dolore autem, laudantium consequatur eius corporis ullam minus!</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>  
+
+    <!--Footer-->
+    {% include "footer.html" %}
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+</html>
